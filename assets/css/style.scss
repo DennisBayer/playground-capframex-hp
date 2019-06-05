@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 
 .page-header {
-	background-image: url('assets/images/splash.jpg');
+	background-image: url('../images/splash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
 	background-color: #597581;
+
+	padding: 240px 0px;
 }
