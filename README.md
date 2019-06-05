@@ -1,3 +1,8 @@
+---
+layout: page
+title: Welcome to CapFrameX
+---
+
 # Welcome to CapFrameX
 
 *CapFrameX* offers a rich feature set to record and analyze GPU and CPU benchmarks.
@@ -17,6 +22,14 @@ Although based on PresentMon, which covers all 3D APIs, OCAT records can be read
 * In- and Export
   * Read OCAT records
   * Export recordings to Excel
+
+## Recent Announcments
+
+<ul class="posts">
+  {% for post in site.posts limit: 3 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Screenshots
 
