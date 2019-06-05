@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 
-# Empty templates values. `.page-header` uses a background image
-title: 
-description: 
+# Empty templates values. `.page-header` uses a background image.
+title: ""
+description: ""
