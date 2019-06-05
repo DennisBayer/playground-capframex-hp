@@ -28,6 +28,6 @@ Although based on PresentMon, which covers all 3D APIs, OCAT records can be read
 
 ## Support and Contact
 
-* ComputerBase.de: [https://www.computerbase.de/forum/threads/capframex-capture-und-analyse-tool.1851025/](CapFrameX - Capture und Analyse Tool - German user and development forum thread)
-* Twitter: https://twitter.com/CapFrameX
-* YouTube: [https://youtu.be/ZqMMPDxJUkk](CapFrameX Capture Page Tutorial - Frametimes aufzeichnen [DE])
+* ComputerBase.de: [CapFrameX - Capture und Analyse Tool - German user and development forum thread](https://www.computerbase.de/forum/threads/capframex-capture-und-analyse-tool.1851025)
+* Twitter: <https://twitter.com/CapFrameX>
+* YouTube: [CapFrameX Capture Page Tutorial - Frametimes aufzeichnen [DE]](https://youtu.be/ZqMMPDxJUkk)
