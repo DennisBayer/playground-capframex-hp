@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Welcome to CapFrameX
 
-You can use the [editor on GitHub](https://github.com/DennisBayer/playground-capframex-hp/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+*CapFrameX* offers a rich feature set to record and analyze GPU and CPU benchmarks.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It enables you to analyze and compare records in multiple ways. The FPS- and Frametime-graphes and L-Shapes are calculated for each record and can be compared among each others. The calculation considers various options, e.g. Shuttering Parameter and Adaptive Scattering Measure.
 
-### Markdown
+Although based on PresentMon, which covers all 3D APIs, OCAT records can be read as well.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+* Recording and analyzing
+  * Create FPS- and Frametime-graphes
+  * Create L-Shapes (percentiles)
+  * Compare records
+  * List records in a report
+  * Check adaptive synchronization
+* In- and Export
+  * Read OCAT records
+  * Export recordings to Excel
 
-# Header 1
-## Header 2
-### Header 3
+## Screenshots
 
-- Bulleted
-- List
+![Single Record View](assets/images/SingleRecordView.png "Single Record View")
 
-1. Numbered
-2. List
+## Disclaimer
 
-**Bold** and _Italic_ and `Code` text
+*CapFrameX* is currently under developent and in a beta stage. Bugs might occur - feel free to open an issue or provide a pull request.
 
-[Link](url) and ![Image](src)
-```
+## Support and Contact
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DennisBayer/playground-capframex-hp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* ComputerBase.de: [https://www.computerbase.de/forum/threads/capframex-capture-und-analyse-tool.1851025/](CapFrameX - Capture und Analyse Tool - German user and development forum thread)
+* Twitter: https://twitter.com/CapFrameX
+* YouTube: [https://youtu.be/ZqMMPDxJUkk](CapFrameX Capture Page Tutorial - Frametimes aufzeichnen [DE])
