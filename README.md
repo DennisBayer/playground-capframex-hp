@@ -2,9 +2,9 @@
 
 *CapFrameX* offers a rich feature set to record and analyze GPU and CPU benchmarks.
 
-It enables you to analyze and compare records in multiple ways. The FPS- and Frametime-graphes and L-Shapes are calculated for each record and can be compared among each others. The calculation considers various options, e.g. Shuttering Parameter and Adaptive Scattering Measure.
+It enables you to analyze and compare records in multiple ways. The FPS-, Frametime-graphes and L-Shapes are calculated for each record and can be compared among each others. The calculation considers various options, e.g. Shuttering Parameter and Adaptive Scattering Measure.
 
-Although based on PresentMon, which covers all 3D APIs, OCAT records can be read as well.
+Although based on PresentMon, which covers all 3D APIs, OCAT records can be imported as well.
 
 ## Features
 
