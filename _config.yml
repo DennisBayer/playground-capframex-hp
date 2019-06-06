@@ -1,5 +1,8 @@
 theme: jekyll-theme-cayman
 
+plugins:
+  - jekyll-archives
+
 # Empty templates values. `.page-header` uses a background image.
 title: " "
 description: " "

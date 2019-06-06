@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: default
 title:  "CapFrameX v1.2.2 released"
 ---
 
 # CapFrameX v1.2.2 released
 
-We are very pleased to announce a new version of *CapFrameX*
+We are very pleased to announce a new version of *CapFrameX*, featuring new capture page and many analysis functions.
 
 ## New features
 

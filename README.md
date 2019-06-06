@@ -1,6 +1,6 @@
 # Welcome to CapFrameX
 
-*CapFrameX* offers a rich feature set to record and analyze GPU and CPU benchmarks.
+*CapFrameX* is frametimes capture and analysis tool compatible with most common 3D APIs. It offers a rich feature set to record and analyze GPU and CPU benchmarks.
 
 It enables you to analyze and compare records in multiple ways. The FPS-, Frametime-graphes and L-Shapes are calculated for each record and can be compared among each others. The calculation considers various options, e.g. Shuttering Parameter and Adaptive Scattering Measure.
 
@@ -18,13 +18,23 @@ Although based on PresentMon, which covers all 3D APIs, OCAT records can be impo
   * Read OCAT records
   * Export recordings to Excel
 
+## Recent Announcement
+<ul>
+  {% for post in site.posts limit: 3%}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - <small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
+    </li>
+  {% endfor %}
+</ul>
+<small><a href="/pages/archive.html">Read more</a><small>
+
 ## Screenshots
 
 ![Single Record View](assets/images/SingleRecordView.png "Single Record View")
 
 ## Disclaimer
 
-*CapFrameX* is currently under developent and in a beta stage. Bugs might occur - feel free to open an issue or provide a pull request.
+*CapFrameX* is currently under development and in a beta stage. Bugs might occur - feel free to open an issue or provide a pull request.
 
 ## Support and Contact
 
