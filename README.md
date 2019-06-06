@@ -22,15 +22,15 @@ Although based on PresentMon, which covers all 3D APIs, OCAT records can be impo
 <ul>
   {% for post in site.posts limit: 3%}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - <small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
+      <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a> - <small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
     </li>
   {% endfor %}
 </ul>
-<small><a href="/pages/archive.html">Read more</a><small>
+<small><a href="./pages/archive.html">Read more</a><small>
 
 ## Screenshots
 
-![Single Record View](assets/images/SingleRecordView.png "Single Record View")
+![Single Record View](./assets/images/SingleRecordView.png "Single Record View")
 
 ## Disclaimer
 

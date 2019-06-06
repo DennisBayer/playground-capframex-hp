@@ -1,7 +1,12 @@
+# Themeing
 theme: jekyll-theme-cayman
 
+# Plugins
 plugins:
   - jekyll-archives
+
+# Serve Command Options
+#baseurl: /playground-capframex-hp
 
 # Empty templates values. `.page-header` uses a background image.
 title: " "
