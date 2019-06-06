@@ -1,0 +1,5 @@
+# Ignore assets which are neeeded to build locally
+_site/
+Gemfile
+Gemfile.lock
+playground-capframe-hp.code-workspace
