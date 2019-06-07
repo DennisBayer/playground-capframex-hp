@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Announcements
+  link: /pages/announcements.html
+- name: Features
+  link: /pages/features.html

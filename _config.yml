@@ -6,7 +6,12 @@ plugins:
   - jekyll-archives
 
 # Serve Command Options
-#baseurl: /playground-capframex-hp
+baseurl: /playground-capframex-hp
+
+# Collections
+collections:
+  features:
+    output: true
 
 # Empty templates values. `.page-header` uses a background image.
 title: " "

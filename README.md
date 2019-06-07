@@ -1,3 +1,5 @@
+{% include navigation.html %}
+ 
 # Welcome to CapFrameX
 
 *CapFrameX* is frametimes capture and analysis tool compatible with most common 3D APIs. It offers a rich feature set to record and analyze GPU and CPU benchmarks.
@@ -19,14 +21,15 @@ Although based on PresentMon, which covers all 3D APIs, OCAT records can be impo
   * Export recordings to Excel
 
 ## Recent Announcement
+
 <ul>
-  {% for post in site.posts limit: 3%}
+  {% for post in site.posts limit: 3 %}
     <li>
-      <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a> - <small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - <small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
     </li>
   {% endfor %}
 </ul>
-<small><a href="./pages/archive.html">Read more</a><small>
+<small><a href="{{ site.baseurl }}{% link pages/announcements.html %}">Read more</a><small>
 
 ## Screenshots
 

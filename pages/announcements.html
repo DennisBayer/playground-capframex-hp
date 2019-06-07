@@ -1,0 +1,20 @@
+---
+layout: default
+title: Announcements
+---
+
+{% include navigation.html %}
+
+<h1>{{ page.title }}</h1>
+
+{% for post in site.posts %}
+<hr>
+<article>
+  <header>
+    <small><time>{{ post.date | date: "%b %-d, %Y" }}</time></small>
+  </header>
+  <section>
+    <p>{{ post.content }}</p>
+  </section>
+</article>
+{% endfor %}

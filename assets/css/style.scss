@@ -28,3 +28,8 @@ hr {
 	border: 1px solid #88B700 !important;
 	height: 0px !important;
 }
+
+nav a::before {
+	content: "\1F4DA "; /* Books */
+	margin: 0 0.2rem;
+}
