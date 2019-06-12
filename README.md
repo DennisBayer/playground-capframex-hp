@@ -1,5 +1,3 @@
-{% include navigation.html %}
- 
 # Welcome to CapFrameX
 
 *CapFrameX* is frametimes capture and analysis tool compatible with most common 3D APIs. It offers a rich feature set to record and analyze GPU and CPU benchmarks.
