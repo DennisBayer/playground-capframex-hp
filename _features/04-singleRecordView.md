@@ -1,5 +1,4 @@
 ---
-layout: feature
 name: Single Record View
 ---
 
