@@ -9,7 +9,11 @@
 	background-position: center;
 	background-color: #597581;
 
-	padding: 240px 0px;
+	background-size: contain;
+	height: 20em;
+
+	/* TODO contain is not supported by all browsers, therefore a proper solution should be applied after debugging.
+	padding: 240px 0px; */
 }
 
 .main-content {
