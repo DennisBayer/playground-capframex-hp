@@ -1,18 +1,58 @@
+#
 # Themeing
+#
 theme: jekyll-theme-cayman
 
 # Plugins
 plugins:
+# Default plugins are enabled by default and cannot be disabled.
+#   - jekyll-coffeescript
+#   - jekyll-gist
+#   - jekyll-github-metadata
+#   - jekyll-paginate
+#   - jekyll-relative-links
+#   - jekyll-optional-front-matter
+#   - jekyll-readme-index
+#   - jekyll-default-layout
+#   - jekyll-titles-from-headings
   - jekyll-archives
+  - jekyll-seo-tag
 
+#
 # Serve Command Options
+#
 baseurl: /playground-capframex-hp
 
-# Collections
+#
+# Set default layout rules - (https://jekyllrb.com/docs/configuration/front-matter-defaults/)
+#   The different types that are available to you are pages, posts, drafts or any collection in your site. 
+#   While type is optional, you must specify a value for path when creating a scope/values pair.
+#
+defaults:
+  - scope:
+      path: ""
+      type: "features"
+    values:
+      layout: "feature"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+#
+# Collections - (https://jekyllrb.com/docs/collections/)
+#
 collections:
   features:
     output: true
 
+#
 # Empty templates values. `.page-header` uses a background image.
+#
 title: " "
 description: " "
