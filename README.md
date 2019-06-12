@@ -8,17 +8,50 @@ It enables you to analyze and compare records in multiple ways. The FPS-, Framet
 
 Although based on PresentMon, which covers all 3D APIs, OCAT records can be imported as well.
 
-## Features
+## Current feature list
 
-* Recording and analyzing
-  * Create FPS- and Frametime-graphes
-  * Create L-Shapes (percentiles)
-  * Compare records
-  * List records in a report
-  * Check adaptive synchronization
-* In- and Export
-  * Read OCAT records
-  * Export recordings to Excel
+### Capture frametimes
+
+* Capture service based on PresentMon
+* High-accurate frametime recordings
+* Predefined capture time
+* Managing processes to capture
+* DirectX and Vulkan are supported
+* Free configurable hotkeys
+* Very reliable hotkey hooking
+
+### Single record analysis
+
+* Select and search recordings in DataGrid
+* Displaying system info like CPU and GPU
+* Editing comments and system info
+* Direct editing comments and system info in record list
+* Displaying frametime graph and moving average
+* Displaying FPS graph and average line graph
+* Cutting frametime graphs ("Single Record" page)
+* Calculating and displaying basic parameter (average, p-quantiles, min)
+* Calculating and displaying low average parameter (0.1% and 1% low)
+* Calculating and displaying adaptive standard deviation
+* Calculating and displaying stuttering percentage (time)
+* Removing outliers
+
+### Record comparison
+
+* Record comparison (performance parameter, L-shape analysis)
+
+### L-shape analysis
+
+* Calculating and displaying L-shape curve
+
+### Synchronization info (G-Sync, FreeSync)
+
+* Displaying frametime and display changed time graph (G-Sync and FreeSync synced vs. dropped frames)
+
+### Reporting
+
+* Export performance parameter and graphs (Excel)
+* Export comparison table as report (Excel)
+* Export PNG report picture
 
 ## Recent Announcement
 
